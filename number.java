@@ -1,5 +1,5 @@
 import java.io.*;
-public class NumberReverse {
+class NumberReverse {
     public static void main(String a[]){
         public int reverseNumber()
         {
@@ -10,7 +10,7 @@ public class NumberReverse {
             reverse = (reverse*10)+(number%10);
             number = number/10;
         }
-        System.ou.println(reverse);
+        System.out.println(reverse);
     }
     }
 }
