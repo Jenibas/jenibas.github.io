@@ -7,6 +7,8 @@ public static void main(String arg[])
         Scanner n=new Scanner(System.in);
         j=n.nextInt();
         int i = 1;
+        if(j>=0)
+        {
         while(i <= j)
         {
             factorial *= i;
@@ -14,6 +16,6 @@ public static void main(String arg[])
         }
         
         System.out.println("Factorial of number " + j+ " is " + factorial);
-    
+        }
     }
 }
