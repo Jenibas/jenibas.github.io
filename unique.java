@@ -5,14 +5,14 @@ public class Array {
 		int m = args.length;
 		int []a=new int[m];
 		int []b=new int[m];
-		for(int i=0;i<n;i++)
+		for(int i=0;i<m;i++)
 		{
 			a[i]=Integer.parseInt(args[i]);		
 		b[i]=0;
 		}
-		for(int i=0;i<n;i++)
+		for(int i=0;i<m;i++)
 		{
-		for(int j=0;j<n;j++)
+		for(int j=0;j<m;j++)
 		{
 			if(a[i]==a[j])
 			{
@@ -20,7 +20,7 @@ public class Array {
 			}
 			
 			}}
-		for(int i=0;i<n;i++)
+		for(int i=0;i<m;i++)
 		{
 			if(b[i]<2)
 			{
