@@ -11,7 +11,7 @@ if(sum<0)
 sum=0;
 else if(sum>max)
 {
-max=sum;
+max=sum;  
 }
 }
 printf("%d",max);
