@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	@SuppressWarnings("resource")
 	Scanner s=new Scanner(System.in);
 	int n,m;
-	System.out.println("Enter size of  A array");
+	System.out.println("Enter size of array");
 	n=s.nextInt();
 	int[] a=new int[n];
 	System.out.println("Enter elements");
@@ -19,7 +19,7 @@ public static void main(String[] args) {
 	        {
 	        a1 += a[i]*Math.pow(10,a.length-i-1);   
 	        }
-	System.out.println("Enter size of  B(sub) array");
+	System.out.println("Enter size of sub array");
 	m=s.nextInt();
 	int[] b=new int[m];
 	System.out.println("Enter elements");
