@@ -2,6 +2,8 @@ import java.io.*;
 import java.lang.*;
 class chkleap
 {
+public static void main(String args[])
+{
 Scanner s=new Scanner(System.in);
 int n1=s.nextInt();
 System.out.println("enter the year  to calculate leap or not");
@@ -24,6 +26,7 @@ a[6]="saturday";
 for(int i=0;i<a.length;i++)
 {
 System.out.println(a[i+1]);
+}
 }
 }
 }
