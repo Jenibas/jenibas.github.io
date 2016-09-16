@@ -7,7 +7,7 @@ class fivehello
   int i;
   for(i=0;i<5;i++)
   {
-   System.ou.println("Hello World");
+   System.out.println("Hello World");
   }
   
   }
