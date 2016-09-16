@@ -7,7 +7,7 @@ class charalpha
   Scanner sc=new Scanner(System.in);
   String s=sc.next();
   char[] ch=s.toCharArray();
-  for(int i=0;i<s.length;i++)
+  for(int i=0;i<s.length();i++)
   {
    if(ch[i]>='a' && ch[i]<='z' || ch[i]>='A' && ch[i]<='Z')
    {
