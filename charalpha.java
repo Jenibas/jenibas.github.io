@@ -11,7 +11,7 @@ class charalpha
   {
    if(ch[i]>='a' && ch[i]<='z' || ch[i]>='A' && ch[i]<='Z')
    {
-    System.out.println(ch[i]+" is character");
+    System.out.println("it have only character");
     }
     else
     {
